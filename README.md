@@ -31,7 +31,6 @@ Este projeto é uma API desenvolvida com **NestJS** que consome todos os endpoin
 
    ```env
    SPORTS_MONKS_API_KEY=seu_api_key
-   JWT_SECRET=sua_chave_secreta
    ```
 
 4. Inicie o servidor:
@@ -71,7 +70,7 @@ src/
 
 - **GET /api/teams**: Lista informações de todos os times.
 - **GET /api/fixtures**: Consulta partidas com suporte a includes como estatísticas e resultados ao vivo.
-- **GET /api/players/****:id**: Detalhes sobre um jogador específico.
+- **GET /api/players/**:id**: Detalhes sobre um jogador específico.
 - Outros endpoints estão documentados diretamente no código.
 
 ---
